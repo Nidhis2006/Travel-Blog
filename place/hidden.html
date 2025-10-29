@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYSTERIOUS PLACES</title>
+    <link rel="icon"  type="image/icon" href="./images/Screenshot 2024-01-20 215539.png">
+    <style>
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     
+    .header{
+text-align: center;
+font-size: 20px;
+color: var(--text-color);
+background-color: rgb(139, 138, 136);
+}
+
+.SITES{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:2rem;
+    margin: 1rem;
+}
+
+img{
+    width:500px;
+    height:400px;
+}
+
+    
+.footer-container{
+    background-color: var(--background-color);
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    }
+    
+    .footer{
+    max-width: 1280px;
+    padding:1.2rem 2.4rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    /*gap: 5rem;*/
+    }
+    .footer-top{
+    width:34%;
+    display: flex;
+    flex-direction: column;
+    gap:1.65rem;
+    }
+    .logo-svg{
+    width:3rem;
+    height: 4rem;
+    }
+    
+    .comp-logo{
+    margin-bottom: -1.9rem;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .logo-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.8rem;
+    font-size: 1.28rem;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    }
+    
+    .socials{
+    display: flex;
+    gap: 0.8rem;
+    }
+    .social-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    }
+    
+    .filler-text{
+    font-size:1rem;
+    color:#777;
+    
+    }
+    
+    .footer-grid{
+    padding: 2rem;
+    width:58%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5.6rem;
+    }
+    
+    .footer-grid-heading{
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: var(--text-color);
+    }
+    
+    ul{
+    list-style-type: none;
+    }
+    
+    .footer-link{
+    color:#777;
+    font-size: 0.84rem;
+    text-decoration: none;
+    }
+    
+    .footer-links-list{
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.6rem;
+    }
+    
+    .footer-copyright{
+    color: var(--gray);
+    font-size: 0.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+    }
+    
+    @media  screen and (max-width:1080px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top{
+        padding-top: 10rem;
+    }
+    .footer-grid{
+        align-self: center;
+        justify-content: space-evenly;
+    }
+    }
+    
+    @media screen and (max-width:850px) {
+    .footer-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-top{
+        padding-top: 1rem;
+    }
+    }
+</style>
+</head>
+<body>
+    <div class="hs">
+        <div class="header">
+            <h1>
+                MYSTERIOUS PLACES
+            </h1>
+        </div>
+
+        <div class="SITES">
+            <div class="s1">
+                  1. The hanging pillar at Lepakshi, Andhra Pradesh <br>
+                    <img src="./images/Hanging-Pillar-of-Lepakshi.jpg">
+
+                
+            </div>
+
+            <div class="s2">
+                2. The Mini Desert At Talakad, Karnataka <br>
+                <img src="./images/mini-desert-at-talakad.webp">
+            </div>
+            
+            <div class="s3">
+                3. Levitating Stone at Shivapur, Maharashtra<br>
+                <img src="./images/Levitating-Stone-Shivapur.jpeg">
+            </div>
+
+            <div class="s4">
+                4. The ‘Holy’ Rat Infested Karni Mata Temple, Rajasthan <br>
+                <img src="./images/Karni-Mata-Temple.webp" >
+            </div>
+
+            <div class="s5">
+                5. Door-Deprived Houses Of Shani Shingnapur, Maharashtra <br>
+                <img src="./images/door.jpg">
+            </div>
+
+            <div class="s6">
+               6. The Gravity Defying Palace At Lucknow, Uttar Pradesh <br>
+                <img src="./images/Bara-Imambara.webp">
+            </div>
+
+            <div class="s7">
+                7.The Magnetic Hill Of Leh, Ladakh<br> 
+                <img src="./images/magnetic-hill.webp">
+            </div>
+
+            <div class="s8">
+                8.  The Lake Of Skeletons At Chamoli, Uttarakhand <br>
+                <img src="./images/skeleton.jpg">
+            </div>
+
+            <div class="s9">
+                9. The Red Rain At Idukki, Kerala <br>
+                <img src="./images/redrain.jpg">
+            </div>
+
+            <div class="s10">
+                10.The Place Of Suicidal Birds In Jatinga, Assam <br>
+                <img src="./images/jatinga-assam.webp">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <footer class="footer">
+           <div class="footer-top">
+             <div class="comp-logo">
+                 <a class="logo-link" href="#">
+                     <img src="./images/Screenshot 2024-01-20 215539.png " class="logo-svg" >
+                     GHUMO PHIRO AUR LIKHO
+               </a>
+             </div>
+                 <p class="filler-text">Seamless Learning for Brighter Futures</p>
+                 
+                 <div class="socials">
+                     <a class="social-link" href="#">
+                         <img src="./images/instagram.svg" class="social-icon" >
+                     </a>
+                     <a class="social-link" href="#">
+                         <img src="./images/linkedin.svg" class="social-icon">
+                     </a>
+                     <a class="social-link" href="#" >
+                         <img src="./images/Microsoft.svg" class="social-icon" >
+                     </a>
+                     <a class="social-link" href="#">
+                         <img src="./images/twitter.svg" class="social-icon">
+                     </a>
+                 </div>
+             </div>
+             
+
+           
+           <div class="footer-grid">
+             <!--col1-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Products
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#overview">Overview</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#solution">Solutions</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#pricing">Pricing</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#customer">Customers</a>
+                             </li>
+                     </ul>
+                   </div>
+<!--col2-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Company
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#about">About</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#ir">Investor Relations</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#jobs">Jobs</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#press">Press</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#blog">Blog</a>
+                             </li>
+                     </ul>
+                   </div>
+<!--col3-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Support
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#contact">Contact</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#doc">Documentation</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#chat">Chat</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#faq">FAQ</a>
+                             </li>
+                     </ul>
+                   </div>
+<!--col4-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Legal
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#tos">Terms of Service</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#pp">Privacy Policy</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#cs">Cookie setting</a>
+                             </li>
+                             
+                     </ul>
+                   </div>
+           </div>
+        </footer>
+        <div class="footer-copyright">
+                 &copy; 2024 - Present Ghumo Phiro aur Likho.All Rights Reserved
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERALA</title>
+    <link rel="icon" type="image/icon" href="./images/Screenshot 2024-01-20 215539.png">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         
+        .header{
+    text-align: center;
+    font-size: 20px;
+    color: var(--text-color);
+    background-color: rgb(139, 138, 136);
+}
+
+.content img{
+    height:280px;
+    width:400px;
+    border-radius:20px;
+}
+
+.content{
+  margin-top:0.9rem;
+
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.img1{
+    float:left;
+    
+}
+
+.img2{
+    float:right;
+}
+
+.content p{
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+.p-desc{
+    margin-top: 3rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.content h3{
+    text-decoration: underline;
+    background: linear-gradient(to right,skyblue,blue);
+    display: inline;
+}
+
+
+.footer-container{
+    background-color: var(--background-color);
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+}
+
+.footer{
+    max-width: 1280px;
+    padding:1.2rem 2.4rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    /*gap: 5rem;*/
+}
+.footer-top{
+    width:34%;
+    display: flex;
+    flex-direction: column;
+    gap:1.65rem;
+}
+.logo-svg{
+    width:3rem;
+    height: 4rem;
+}
+
+.comp-logo{
+    margin-bottom: -1.9rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.8rem;
+    font-size: 1.28rem;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+.socials{
+    display: flex;
+    gap: 0.8rem;
+}
+.social-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.filler-text{
+    font-size:1rem;
+    color:#777;
+    
+}
+
+.footer-grid{
+    padding: 2rem;
+    width:58%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5.6rem;
+}
+
+.footer-grid-heading{
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-link{
+    color:#777;
+    font-size: 0.84rem;
+    text-decoration: none;
+}
+
+.footer-links-list{
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.6rem;
+}
+
+.footer-copyright{
+    color: var(--gray);
+    font-size: 0.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+@media  screen and (max-width:1080px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top{
+        padding-top: 10rem;
+    }
+    .footer-grid{
+        align-self: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .footer-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-top{
+        padding-top: 1rem;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="kerala">
+        <div class="header">
+            <h1>
+                KERALA
+            </h1>
+        </div>
+        <div class="content">
+            <p>
+                <img src="./images/kerala-tour-packages.jpg" class="img">
+            
+            <div class="p-desc">
+                Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to elephants, langur monkeys and tigers
+            </div>
+            </p>
+             <p>
+                <img src="./images/Tea-Gardens-Munnar-Kerala-India.jpg" class="img1">
+                <div class="p-desc">
+                    <h3>MUNNAR</h3><br>
+                    The rolling hills of Munnar house some of the largest tea plantations in South India. Take some time off from Kerala’s more famous beaches and visit the tea museum, 1.5 kilometres out of town, or simply relax with a freshly-brewed cup on a serene tea estate. A perfect honeymoon destination in Kerala, Munnar boasts of an astonishing terrain and breathtaking landscapes.
+                </div>
+             </p>
+
+             <p>
+                <img src="./images/kovalam.jpg" class="img2">
+                <div class="p-desc">
+                    <h3>KOCHI</h3><br>
+                    The thriving port town of Kochi, or Cochin, once the main centre of India’s spice trade, is a unique amalgamation of the old and the new. Take a walk down the rambling alleys of Kochi’s historic Jewish Colony, lined with brightly-painted houses, to see the Mattancherry Synagogue, one of the oldest existing synagogues in the Commonwealth. Or go see the Chinese Fishing Nets, in the Fort Cochin area. Unlike usual nets, these are fixed land installations and can only be found at Kochi, outside of China—a lasting testimony to the good relations between ancient Chinese emperors and the rulers of Kochi
+                </div>
+             </p>
+             <p>
+                <img src="./images/People-in-Kerala-India-Gloria-Apara-Nomadicchica.com-6.jpg" class="img1">
+                <div class="p-desc">
+                    <h3>DANCE FORM</h3><br>
+                    Kathakali is the ancient form of storytelling through dance that originated in Kerala in the 17th century. Get a taste of the past with an enthralling dance performance at the Kathakali Centre. If you’re feeling adventurous, the Centre also holds performances of Kalaripayattu, one of the oldest forms of martial arts
+                </div>
+             </p>
+             <p>
+                <img src="./images/untitled-design-2023-09-08t160707.webp" class="img2">
+                <div class="p-desc">
+                    <h3>WHEN TO GO</h3><br>
+                    October to February: Winters are the best time to visit Kerala, although tourists abound all year round. Temperatures are mild (17-30 degrees Celsius) and perfect for beach bums. pack your bags with your kids or spouse and head to those amazing beaches for a perfect holiday
+<br>
+March to June: Summers can get very humid in Kerala but that’s all the more reason to enjoy a dip in the sea! This is off-season, so you can get better deals on hotels during the summer. Everything out there, ranging from food to accommodation to travel is available at a dirt cheap price. Its the best time to bargain and get some amazing discounts on those resorts and flights you were willing to book.
+<br>
+July to September: The monsoons showcase Kerala in all of its lush splendour and can be a great time to visit Kerala. Nature is at its best during these two months. As its monsoon in Kerala in the month of June and September,be sure to carry waterproof clothing and umbrellas as the downpours here are very unpredictable
+                </div>
+             </p>
+            
+        </div>
+    </div>
+    <div class="footer-container">
+        <footer class="footer">
+           <div class="footer-top">
+             <div class="comp-logo">
+                 <a class="logo-link" href="#">
+                     <img src="./images/Screenshot 2024-01-20 215539.png " class="logo-svg" >
+                     GHUMO PHIRO AUR LIKHO
+               </a>
+             </div>
+                 <p class="filler-text">Seamless Learning for Brighter Futures</p>
+                 
+                 <div class="socials">
+                     <a class="social-link" href="#">
+                         <img src="./images/instagram.svg" class="social-icon" >
+                     </a>
+                     <a class="social-link" href="#">
+                         <img src="./images/linkedin.svg" class="social-icon">
+                     </a>
+                     <a class="social-link" href="#" >
+                         <img src="./images/Microsoft.svg" class="social-icon" >
+                     </a>
+                     <a class="social-link" href="#">
+                         <img src="./images/twitter.svg" class="social-icon">
+                     </a>
+                 </div>
+             </div>
+             
+
+           
+           <div class="footer-grid">
+             <!--col1-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Products
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#overview">Overview</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#solution">Solutions</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#pricing">Pricing</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#customer">Customers</a>
+                             </li>
+                     </ul>
+                   </div>
+<!--col2-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Company
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#about">About</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#ir">Investor Relations</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#jobs">Jobs</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#press">Press</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#blog">Blog</a>
+                             </li>
+                     </ul>
+                   </div>
+<!--col3-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Support
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#contact">Contact</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#doc">Documentation</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#chat">Chat</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#faq">FAQ</a>
+                             </li>
+                     </ul>
+                   </div>
+<!--col4-->
+                   <div class="footer-grid-column">
+                     <div class="footer-grid-heading">
+                         Legal
+                     </div>
+                     <ul class="footer-links-list">
+                             <li>
+                                 <a class="footer-link" href="#tos">Terms of Service</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#pp">Privacy Policy</a>
+                             </li>
+                             <li>
+                                 <a class="footer-link" href="#cs">Cookie setting</a>
+                             </li>
+                             
+                     </ul>
+                   </div>
+           </div>
+        </footer>
+        <div class="footer-copyright">
+                 &copy; 2024 - Present Ghumo Phiro aur Likho.All Rights Reserved
+        </div>
+    </div>
+</body>
+</html>
